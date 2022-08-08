@@ -1,0 +1,17 @@
+body::before{
+    content: "";
+    display: block;
+    height: 50px;
+}
+
+footer a{
+    position: absolute !important;
+    top: 25px;
+    right: 0;
+
+}
+@media screen and (min-width:768px){
+    .news-input{
+        width: 50% !important;
+    }
+}
